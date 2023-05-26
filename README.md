@@ -9,23 +9,23 @@
 
 ## Kurulum Adımları
 
-- İşlemlere başlamadan önce destek için sağ üstten Fork ve Star butonlarına basabilirsiniz. İlk olarak videoki anlattığım şekilde test tokenları alabilmiş olmalısınız. Çünkü daha önceden formla başvurmuştuk ve formda verdiğimiz adresler eğer seçildiysek test tokenı alabiliyor. Bundan emin olduktan sonra Putty ile vps'e bağlanıp alttaki tek kodu çalıştırıyorsunuz. İşlemler sırasında eğer gelirse pembe ekranda sadece enter'a basıp işlemin devam etmesini sağlayabilirsiniz.
+- İşlemlere başlamadan önce destek için sağ üstten Fork ve Star butonlarına basabilirsiniz. İlk olarak videoki anlattığım şekilde test tokenlarını alabilmiş olmalısınız. Çünkü daha önceden formla başvurmuştuk ve formda verdiğimiz adresler eğer seçildiyse test tokenı alabiliyor. Bundan emin olduktan sonra Putty ile vps'e bağlanıp alttaki tek kodu çalıştırıyorsunuz. İşlemler sırasında eğer gelirse pembe ekranda sadece enter'a basıp işlemin devam etmesini sağlayabilirsiniz.
 ```
 wget -q -O opside.sh https://raw.githubusercontent.com/okannako/opsideitn/main/opside.sh && chmod +x opside.sh && sudo /bin/bash opside.sh
 ```
 
-- Yüklemeler bittikten sonra ss'De ki ekran geldiğinde Metamask adresi girip sonraki adımda da istediğimiz bir şifreyi giriyoruz. Bu adımları size 2 defa yaptırıyor lütfen buna dikkat edin.
+- Yüklemeler bittikten sonra ss'de ki ekran geldiğin de Metamask adresi girip sonraki adımda da istediğimiz bir şifreyi giriyoruz. Bu adımları size 2 defa yaptırıyor lütfen buna dikkat edin.
 ![1](https://github.com/okannako/opsideitn/assets/73176377/80261b52-00e1-4851-ba55-781bf1cac3ac)
 ![2](https://github.com/okannako/opsideitn/assets/73176377/63c5f5b1-ca65-4be6-af3f-b4c175fb0357)
 
 - İşlemleri düzgün yaptıktan sonra bize kelimeler veriyor bunları kesinlikle yedekleyin.
 ![3](https://github.com/okannako/opsideitn/assets/73176377/282b81fc-073f-4583-992b-1212b31ff2d8)
 
-- Herhangi bir tuşa bastıktan sonra bizde tekrar onaylamamız istiyor. Ss'de ki ekranda kelimelerin ilk dört harfli haliyle girilmesini istiyor. Gerekli ayarlamaları yapıp enter'a basıyoruz. 
+- Herhangi bir tuşa bastıktan sonra tekrar onaylamamızı istiyor. Ss'de ki ekranda kelimelerin ilk dört harfli haliyle girilmesini istiyor. Gerekli ayarlamaları yapıp enter'a basıyoruz. 
 ![4](https://github.com/okannako/opsideitn/assets/73176377/3487f45c-4221-4885-993b-12900509a2e5)
 ![5](https://github.com/okannako/opsideitn/assets/73176377/1d7ae36a-fae1-424c-9c3c-0ac1e18587d8)
 
-- Doğru girdikten sonra işlemlere devam ediyor vs ss'deki gibi herhangi bir tuşa basmamız gerektiğini söyleyen bölüm açılıyor. Tuşa bastıktan sonra kalan işlemlerini de bitirip yükleme adımını sonlandırıyor.
+- Doğru girdikten sonra işlemlere devam ediyoruz vs ss'deki gibi herhangi bir tuşa basmamız gerektiğini söyleyen bölüm açılıyor. Tuşa bastıktan sonra kalan işlemlerini de bitirip yükleme adımını sonlandırıyor.
 ![6](https://github.com/okannako/opsideitn/assets/73176377/3acf80e3-35d9-41b3-9b1b-98ab41157e03)
 ![7](https://github.com/okannako/opsideitn/assets/73176377/a295de30-b53e-47c6-aa98-de1460a63883)
 
@@ -44,7 +44,7 @@ opside-chain/show-validator-log.sh
 - Log ekranı ilk anda 1. ss'de ki gibi olacak çünkü sisteme eşitlenme daha yeni başlıyor ve sisteminize göre ağa yetişmek 12 saati bulabiliyor. 
 ![8](https://github.com/okannako/opsideitn/assets/73176377/a6ac37d0-ecd4-4b1b-afee-938a74e76593)
 
-- https://pre-alpha.opside.info/ sitesinden Total Blocks kısmında sayı ile loglardaki number sayısı eşirlenecek ve aşağıdaki ss'de olduğu gibi göründüğünde ağa node ağa eşitlenmiştir.
+- https://pre-alpha.opside.info/ sitesinden Total Blocks kısmında sayı ile loglardaki number sayısı eşitlenecek ve aşağıdaki ss'de olduğu gibi göründüğünde node ağa eşitlenmiştir.
 ![9](https://github.com/okannako/opsideitn/assets/73176377/41bc4443-baa6-4814-82d4-029d807a9406)
 
 ## Validator Adımları
@@ -54,7 +54,7 @@ opside-chain/show-validator-log.sh
 ![10](https://github.com/okannako/opsideitn/assets/73176377/7af4fefb-a727-40ce-ae4d-c8194d81279e)
 ![11](https://github.com/okannako/opsideitn/assets/73176377/e50dc2d4-e535-4f6b-a3ea-ef1880a73e0e)
 
-- Run validator adımıa geçtikten sonra yine en alta gelip Continue butonuna tıklıyoruz.
+- Run validator adımına geçtikten sonra yine en alta gelip Continue butonuna tıklıyoruz.
 ![12](https://github.com/okannako/opsideitn/assets/73176377/bfcb6de9-bdaa-411f-ac55-472a26c855bd)
 
 - Bundan sonra Data Deposit adımına geçmiş oluyoruz. Burada bilgisayarımıza yedeklediğimiz validator_keys isimli klasörün içindeki ```deposit_data-XXXX.json``` isimli dosyayı sürükleyip buranın üzerine bırakıyoruz ve Continue tıklayarak devam ediyoruz.
