@@ -22,7 +22,7 @@ sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential gi
 sudo apt install make -y && cd $HOME
 sleep 1
 
-echo -e "\e[1m\e[32m >>>Yüklemeler ve Senkranizasyonun Başlaması<<< \e[0m" && sleep 2
+echo -e "\e[1m\e[32m >>>Yüklemeler ve Senkronizasyonun Başlaması<<< \e[0m" && sleep 2
 
 wget -c https://pre-alpha-download.opside.network/testnet-auto-install-v2.tar.gz 
 tar -C ./ -xzf testnet-auto-install-v2.tar.gz
