@@ -44,7 +44,7 @@ opside-chain/show-validator-log.sh
 - Log ekranı ilk anda 1. ss'de ki gibi olacak çünkü sisteme eşitlenme daha yeni başlıyor ve sisteminize göre ağa yetişmek 12 saati bulabiliyor. 
 ![8](https://github.com/okannako/opsideitn/assets/73176377/a6ac37d0-ecd4-4b1b-afee-938a74e76593)
 
-- https://pre-alpha.opside.info/ sitesinden Total Blocks kısmında sayı ile loglardaki number sayısı eşitlenecek ve aşağıdaki ss'de olduğu gibi göründüğünde node ağa eşitlenmiştir.
+- https://pre-alpha.opside.info/ sitesinden Blocks kısmındaki son blok sayıları ile loglardaki number sayısı eşitlenecek ve aşağıdaki ss'de olduğu gibi göründüğünde node ağa eşitlenmiştir.
 ![9](https://github.com/okannako/opsideitn/assets/73176377/41bc4443-baa6-4814-82d4-029d807a9406)
 
 ## Validator Adımları
