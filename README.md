@@ -40,3 +40,30 @@ opside-chain/show-beaconChain-log.sh
 # show the validator logs
 opside-chain/show-validator-log.sh
 ```
+
+- Log ekranı ilk anda 1. ss'de ki gibi olacak çünkü sisteme eşitlenme daha yeni başlıyor ve sisteminize göre ağa yetişmek 12 saati bulabiliyor. 
+![8](https://github.com/okannako/opsideitn/assets/73176377/a6ac37d0-ecd4-4b1b-afee-938a74e76593)
+
+- https://pre-alpha.opside.info/ sitesinden Total Blocks kısmında sayı ile loglardaki number sayısı eşirlenecek ve aşağıdaki ss'de olduğu gibi göründüğünde ağa node ağa eşitlenmiştir.
+![9](https://github.com/okannako/opsideitn/assets/73176377/41bc4443-baa6-4814-82d4-029d807a9406)
+
+## Validator Adımları
+
+- Sisteme eşitlendikten sonra WinSCP ile vps'e bağlanıp ```/root/testnet-auto-install-v2``` dizinindeki validator_keys isimli klasörü bilgisayarınıza yedekliyorsunuz.
+- https://opside.network/validator/deposit siteye giriyoruz ve ss'deki gibi Continue yaparak bütün onayları veriyoruz.
+![10](https://github.com/okannako/opsideitn/assets/73176377/7af4fefb-a727-40ce-ae4d-c8194d81279e)
+![11](https://github.com/okannako/opsideitn/assets/73176377/e50dc2d4-e535-4f6b-a3ea-ef1880a73e0e)
+
+- Run validator adımıa geçtikten sonra yine en alta gelip Continue butonuna tıklıyoruz.
+![12](https://github.com/okannako/opsideitn/assets/73176377/bfcb6de9-bdaa-411f-ac55-472a26c855bd)
+
+- Bundan sonra Data Deposit adımına geçmiş oluyoruz. Burada bilgisayarımıza yedeklediğimiz validator_keys isimli klasörün içindeki ```deposit_data-XXXX.json``` isimli dosyayı sürükleyip buranın üzerine bırakıyoruz ve Continue tıklayarak devam ediyoruz.
+![13](https://github.com/okannako/opsideitn/assets/73176377/808b0c64-bea1-44f1-b7ed-53f92e27e3fa)
+
+- Devam ediyoruz ve onayları vererek Deposit adımına geçiyoruz.
+![14](https://github.com/okannako/opsideitn/assets/73176377/6d7e558c-4238-45bf-a2d8-40829d19d178)
+
+- Deposit adımında Connect butonuna tıklayıp cüzdanı bağlayıp, ağın Metamask'a bağlanmasına onay veriyoruz.
+
+
+
