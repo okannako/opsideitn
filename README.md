@@ -63,7 +63,19 @@ opside-chain/show-validator-log.sh
 - Devam ediyoruz ve onayları vererek Deposit adımına geçiyoruz.
 ![14](https://github.com/okannako/opsideitn/assets/73176377/6d7e558c-4238-45bf-a2d8-40829d19d178)
 
-- Deposit adımında Connect butonuna tıklayıp cüzdanı bağlayıp, ağın Metamask'a bağlanmasına onay veriyoruz.
+- Deposit adımında Connect butonuna tıklayıp cüzdanı bağlayıp, ağın Metamask'a eklenmesine onay veriyoruz.
+![15](https://github.com/okannako/opsideitn/assets/73176377/f52f7aa1-c698-410c-8939-ffcf78596cb2)
+![16](https://github.com/okannako/opsideitn/assets/73176377/c9de27be-ac8c-4b18-a4b9-9acf19b032b1)
+
+- Son işlem olarak da Confirm Deposit butonuna tıklayıp cüzdandan gelen uyarıya onay veriyoruz. Bir süre sonra Complete olunca devam ediyoruz ve son ss'deki ekranı görüyorsak işlemlerimizi başarılı bir şekilde yapmışız demektir.
+![17](https://github.com/okannako/opsideitn/assets/73176377/a252de40-3499-4350-b2a2-bb6f74a025af)
+![18](https://github.com/okannako/opsideitn/assets/73176377/735e6522-9b6e-4e81-986b-2d0512e7563a)
+![19](https://github.com/okannako/opsideitn/assets/73176377/f3d4c0ed-5af0-4774-8d4a-3190d171ff7d)
+
+- İşlemlerinizi kontrol etmek için kullanılacak olan site >>> https://pre-alpha-beacon.opside.info/
+
+
+
 
 
 
